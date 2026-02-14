@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Get Down with Nouns!</title>
+    <title>Latin Case-inator!!</title>
     <style>
         .box {
             border: 2px solid black;
@@ -735,7 +735,7 @@ function checkInputValues1(){
 
       } catch (error) {
             
-            document.getElementById("errorMessage").innerHTML = "Oops! " + error.message;
+            document.getElementById("errorMessage").innerHTML = "Oops! Please enter two Latin nouns with all five forms each, separated by commas.";
             document.getElementById("errorMessage").style.backgroundColor = "red"; 
             document.getElementById("errorMessage").style.color = "white";
 
@@ -798,7 +798,7 @@ function checkInputValues2(){
       break; //exit loop if no error
 
       } catch (error) {
-        document.getElementById("errorMessage").innerHTML = "Oops! " + error.message;
+        document.getElementById("errorMessage").innerHTML = "Oops! Please enter two Latin nouns with all five forms each, separated by commas.";
       return  startClick(); //reset noun array on error
     }
   }
